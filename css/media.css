@@ -1,0 +1,272 @@
+@media (min-width: 1439.98px) {
+    .delivery {
+        background-color: #F5EEE0;
+    }
+}
+@media (max-width: 1239.98px) {
+    .hero__image{
+        width: 90%;
+        left: -30%;
+    }
+    .padding-right {
+        padding-right: 0;
+    }
+}
+@media (max-width: 1023.98px){
+    .footer__container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer__info-start,
+    .footer__info-end {
+        width: 48%;
+        order: 2;
+        text-align: center;
+    }
+    .footer__logo {
+        max-width: 100%;
+        text-align: center;
+        order: 1;
+    }
+    .footer__info-item{
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 991.98px) {
+    .about-grann__body{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .about-grann__content{
+        text-align: center;
+    }
+    .about-grann__article h4::before{
+        content: "";
+    }
+    .about-me__sign {
+        display: none;
+    }
+    .about-me__content {
+        margin-top: 0;
+    }
+    .about-me__sub-title:not(:last-child){
+        margin-bottom: 35px;
+    }
+    .slider-item__button{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .menu__body{
+        display: flex;
+        justify-content: center;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .menu__list{
+        display: none;
+    }
+    .header__logo{
+        display: none;
+    }
+
+    .menu__icon{
+        z-index: 5;
+        display: block;
+        width: 24px;
+        height: 18px;
+        cursor: pointer;
+        position: relative;
+        justify-self: center;
+    }
+    .menu__icon::before,
+    .menu__icon::after,
+    .menu__icon span{
+        position: absolute;
+        left: 0;
+        height: 3px;
+        width: 100%;
+        background-color: #705A66;
+        border-radius: 1.5px;
+        transition: all ease 0.3s;
+    }
+    .menu__icon::before,
+    .menu__icon::after{
+        content: "";
+    }
+    .menu__icon::before{
+        top: 0;
+    }
+    .menu__icon::after{
+        bottom: 0;
+    }
+    .menu__icon span{
+        top: 50%;
+        transform: scale(1) translate(0px, -50%);
+    }
+    .button{
+        font-size: 18px;
+        padding-right: 0;
+        padding-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .hero{
+        padding-bottom: 70px;
+    }
+    .hero__title h1{
+        font-size: 150px;
+    }
+    .hero__title h3{
+        font-size: 18px;
+    }
+    .catalog__items{
+        grid-template-columns: auto;
+    }
+    .title{
+        font-size: 80px;
+    }
+    .delivery__items{
+        padding-top: 0px;
+        flex-direction: column;
+    }
+    .delivery__item{
+        max-width: 70%;
+        padding: 51px 0;
+    }
+    .delivery__item:not(:last-child){
+        border-right: 0px;
+        border-bottom: 1px solid #DDD5C6;
+    }
+    .about-me__container{
+        flex-direction: column;
+    }
+    .about-me__title,  .about-me__sub-title{
+        text-align: center;
+    }
+    .form__container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .form__text p{
+        max-width: 500px;
+    }
+    .faq-item__head{
+        font-size: 18px;
+    }
+    .faq-item:not(:last-child) {
+        margin-bottom: 40px;
+    }
+    .footer__info-start,
+    .footer__info-end {
+        font-size: 16px;
+        text-wrap: wrap;
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 424.98px) {
+    .hero__image{
+        left: -80%;
+    }
+    .hero__title h1{
+        text-align: center;
+        font-size: 120px;
+    }
+    .hero__title h3{
+        text-align: center;
+    }
+    .catalog__button-main {
+        font-size: 18px;
+        max-width: 276px;
+    }
+    .about-grann__article h4{
+        font-size: 18px;
+    }
+    .about-grann__article p{
+        font-size: 16px;
+    }
+    .inst__items{
+        display: none;
+    }
+}
+
+@media (min-width: 424.98px){
+    .inst__swiper{
+        display: none;
+    }
+}
+@media (min-width: 767.98px) {
+    .swiper-pagination {
+        display: none;
+    }
+}
+
+@media (max-width: 767.98px){
+    .bestsellers__container{
+        position: relative;
+    }
+    .inst__container {
+        position: relative;
+    }
+    .swiper-button{
+        position: absolute;
+        width: 100%;
+        bottom: 60px;
+        left: 0;
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 767.98px){
+    .about-me {
+        padding-top: 130px;
+    }
+    .form__section{
+        padding-top: 130px;
+    }
+    .faq{
+        padding-top: 130px;
+    }
+    .faq-item__head{
+        font-size: 18px;
+    }
+    .faq-item__content{
+        font-size: 16px;
+    }
+    .faq-item:not(:last-child){
+        margin-bottom: 20px;
+    }
+    .inst{
+        padding-top: 130px;
+    }
+}
+
+@media (max-width: 424.98px) {
+    .about-me {
+        padding-top: 110px;
+    }
+    .form__section {
+        padding-top: 110px;
+    }
+    .faq{
+        padding-top: 110px;
+    }
+    .inst{
+        padding-top: 110px;
+    }
+    .delivery-item__title{
+        font-size: 18px;
+    }
+    .delivery-item__text{
+        font-size: 16px;
+    }
+    .title{
+        margin-bottom: 15px;
+    }
+}
